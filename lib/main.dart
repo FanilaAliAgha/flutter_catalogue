@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.light,
       theme: ThemeData(
         primarySwatch: Colors.cyan,
@@ -29,4 +30,4 @@ class MyApp extends StatelessWidget {
   }
 }
 
-////////resume video from 1hr 38 mints on 14/4/2022
+////////resume video from 2hr 17 mints on 14/4/2022
